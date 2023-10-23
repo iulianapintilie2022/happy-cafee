@@ -1,15 +1,5 @@
 
-.text-blk {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    color: #d5aa73;
-  }
-  
+
   .responsive-container-block {
     min-height: 75px;
     height: fit-content;
@@ -55,12 +45,4 @@
     margin-left: 0px;
   }
 
-  text-blk.subHeading {
-    text-align: center;
-    font-size: 16;
-    line-height: 26px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 60px;
-    margin-left: 0px;
-  }
+  

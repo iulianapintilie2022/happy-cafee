@@ -1,7 +1,15 @@
 
   .navbar {
     padding-top: .5em;
-    padding-bottom: .5em;}
+    padding-bottom: .5em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(
+      https://images.pexels.com/photos/4424672/pexels-photo-4424672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+      height: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+  }
 
   .main-nav a {
     padding: 10px 15px;
@@ -16,12 +24,12 @@
     list-style: none;
   }
   .main-nav a {
-    color: #d5aa73;
+    color: hsl(0, 0%, 100%);
     font-size: .99em;
   }
   
   .main-nav a:hover {
-    color: white;
+    color: rgb(0, 0, 0);
   }
   
   
@@ -32,19 +40,41 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: rgb(255, 255, 255);
   }
-  
-  
   .banner-image{
     width: 100%;
-    height: 40%;
+    height: 20%;
   }
   
-  
-
-
-
+  .text-blk {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    color: rgb(191, 172, 162);
+  }
+  text-blk.subHeading {
+    text-align: center;
+    font-size: 16;
+    line-height: 26px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+    
+  }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+  }
 @media (min-width: 769px) {
 	.header,
 	.main-nav {
