@@ -2,7 +2,7 @@
   .navbar {
     padding-top: .5em;
     padding-bottom: .5em;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/darkheader.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/darkheader.png');
       height: 30%;
       height: 40rem;
       background-position: center;
