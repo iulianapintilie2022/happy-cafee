@@ -28,6 +28,13 @@ function About() {
         <h3>Kirsten Kaiser</h3>
         <h4>Herbal LuxuryTea</h4>
     </div>
+    <div className='review1'>
+          <blockquote>
+            <p>This makes a great gift! The Packaging looks amazing</p>
+          </blockquote>
+        <h3>Christian Ray</h3>
+        <h4>FruityInfusion Tea</h4>
+    </div>
     </div>
     </div>
   </div>

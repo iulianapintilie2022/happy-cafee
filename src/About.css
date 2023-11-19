@@ -7,10 +7,11 @@
 .review1 {
   color: #767373;
   display: inline-block;
-  font-size: 16px;
-  margin: 25px 10px 25px;
-  max-width: 250px;
-  min-width: 250px;
+  font-size: 10px;
+  margin: 15px 25px 5px;
+  max-width: 100px;
+  left: 50px;
+  
   position: relative;
   text-align: center;
   width: 100%;
@@ -19,15 +20,14 @@
 }
 .centered {
   padding: 13% 10% 12%;
-  margin: auto;
-  width: 50%;
+  margin: 30px;
   padding: 10px;
 }
 
 
 .review1 h3 {
   color: #0e0d0d;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 24px;
   margin: 10px 0 5px;
@@ -43,4 +43,43 @@
   font-style: italic;
   font-weight: 300;
   margin: 0 0 20px;
+}
+@media (max-width: 450px){
+.review1{
+  left: 35px;
+  margin: 15px 5px 2px;
+}
+}
+  
+@media (min-width: 769px) {
+	.review1{
+   min-width: 200px;
+   font-size: 15px;
+   left: 80px;
+  }
+  .review1 h3{
+    font-size: 17px;
+  }
+  .centered{
+    max-width: 700px;
+  }
+  .container{
+    max-width: 800px;
+  }
+	}
+
+
+@media (min-width: 1025px) {
+	.review1{
+    font-size: 15px;
+    
+    margin: 10px 5px 15px;
+  }
+  .centered{
+    min-width: 900px;
+    margin: none;
+  }
+  .container{
+    min-width: 900px;
+  }
 }

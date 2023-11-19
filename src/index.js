@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Navbar from './Navbar';
 import About from './About';
+import SaleBanner from './SaleBanner';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,6 +12,7 @@ root.render(
   <React.StrictMode>
     <Navbar/>
     <About/>
+    <SaleBanner/>
     <App />
   
   </React.StrictMode>
