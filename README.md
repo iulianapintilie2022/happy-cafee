@@ -1,4 +1,4 @@
-Happy Caffee
+<3 <3 Happy Caffee 
 
 This is a project about a coffee shop that started selling their own products online.
 
