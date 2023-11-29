@@ -22,9 +22,9 @@ function SaleBanner(){
         </div>
         <div className="half">
           <div className="description">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatem nam pariatur voluptate perferendis, asperiores aspernatur! Porro similique consequatur, nobis soluta minima, quasi laboriosam hic cupiditate perferendis esse numquam magni.</p>
+            <p>These are our newest products at the moment. We are always doing our best for the best quality products. Try them and tell us what you think!</p>
           </div>
-          <span className="stock"><i className="fa fa-pen"></i> In stock</span>
+          <span className="stock fa fa-pen"> In stock</span>
           <div className="reviews">
             <span>(64 reviews)</span>
           </div>

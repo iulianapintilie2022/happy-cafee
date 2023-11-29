@@ -1,7 +1,9 @@
 .card {
     box-shadow: 0 6px 6px rgba(#000, 0.3);
     transition: 200ms;
+    width: 700px;
     background: #fff;
+    margin: 50px;
 }
 
 .card__title {
@@ -31,7 +33,7 @@
           padding: 0;
           font-weight: 800;
           font-family: "Montserrat", sans-serif;
-          font-size: 64px;
+          font-size: 44px;
           line-height: 50px;
           color: #181e28;
  }
@@ -39,7 +41,7 @@
  .featured_text p {
           margin: 0;
           padding: 0;
-            font-size: 26px;
+            font-size: 18px;
             text-transform: uppercase;
             color: #686e77;
             font-weight: 300;
@@ -47,7 +49,7 @@
  }
   
 .image {padding-top: 15px;
-        width: 100%;
+        width: 80%;
 }
   
 .image img {
@@ -57,7 +59,8 @@
 }
   
 .description {
-        margin-bottom: 25px;
+        margin-top: 50px;
+        margin-bottom: 35px;
 }
   
 .description p {
@@ -91,7 +94,7 @@ span.stock {
 .card__footer {
       padding: 30px 40px;
       display: flex;
-      flex-flow: row no-wrap;
+      flex-flow: row;
       align-items: center;
       position: relative;}
   
@@ -127,7 +130,8 @@ span.stock {
           font-family: "Montserrat", sans-serif;
           font-weight: 600;
           text-transform: uppercase;
-          color: #201503;;
+          color: #201503;
+          margin-right: 50px;
         }
   
 .action
@@ -148,4 +152,37 @@ span.stock {
             color: #201503;
           }
     
+
+@media (max-width: 769px) {
+.card{
+        max-width: 70%;
+        
+        margin: auto;
+}
+.recommend h3{
+        font-size: 16px;
+}
+.featured_text h1{
+        font-size: 35px;
+}
+.featured_text p{
+        font-size: 15px;
+}
+        
+}
+  
+@media (max-width:450px) {
+ .card{
+        max-width:90%;
+}
+.half{
+        height:fit-content;
+}
+.description p{
+        display: none;
+}
+.stock span{
+        font-size: 60px;
+}
+}
   
