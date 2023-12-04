@@ -2,7 +2,7 @@ import {defineField, defineType} from 'sanity'
 
 export default defineType({
   name: 'coffee',
-  title: 'AllCoffee',
+  title: 'All Coffee',
   type: 'document',
   fields: [
     defineField({
@@ -26,6 +26,12 @@ export default defineType({
       options: {
         hotspot: true,
       },
+    }),
+    defineField({
+      name: 'categories',
+      title: 'Categories',
+      type: 'array',
+      of: [{type: 'reference', to: {type: 'category'}}],
     }),
     defineField({
       name: 'bio',

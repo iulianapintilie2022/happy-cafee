@@ -1,8 +1,8 @@
 import {defineField, defineType} from 'sanity'
 
 export default defineType({
-  name: 'post',
-  title: 'Post',
+  name: 'othermedia',
+  title: 'Other Media',
   type: 'document',
   fields: [
     defineField({
@@ -20,10 +20,11 @@ export default defineType({
       },
     }),
     defineField({
-      name: 'coffee',
-      title: 'coffee',
+      name: 'referenceproduct',
+      title: 'Reference Product',
       type: 'reference',
-      to: {type: 'coffee'},
+      to: [{type: 'coffee'},
+           {type: 'tea'},]
     }),
     defineField({
       name: 'mainImage',
@@ -50,16 +51,4 @@ export default defineType({
       type: 'blockContent',
     }),
   ],
-
-  preview: {
-    select: {
-      title: 'title',
-      author: 'author.name',
-      media: 'mainImage',
-    },
-    prepare(selection) {
-      const {coffee} = selection
-      return {...selection, subtitle: coffee && `by ${coffee}`}
-    },
-  },
 })
